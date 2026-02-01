@@ -1,16 +1,62 @@
-# React + Vite
+# 📸 Instagram Login & Signup UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Instagram-inspired authentication UI built using **React**.  
+This project includes a **Login page**, **Signup page**, shared layout, image section, and footer — closely following Instagram’s design language.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 Login Page (Username/Email & Password)
+- 📝 Signup Page (Email, Full Name, Username, Password)
+- 🔄 Navigation between Login & Signup using React Router
+- 🖼️ Common left-side image for both pages
+- 🧩 Shared authentication layout (reusable component)
+- 🧾 Instagram-style footer
+- 📱 Fully responsive (mobile-friendly)
+- 🎨 Clean and modern UI
+- 🔤 Custom fonts for better visual clarity
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Vite**
+- **React Router DOM**
+- **CSS (Custom Styling)**
+- **Google Fonts**
+
+---
+
+## 📂 Project Structure
+
+src/
+├── assets/
+│ └── instagram.png
+├── components/
+│ ├── AuthLayout.jsx
+│ ├── AuthLayout.css
+│ ├── Login.jsx
+│ ├── Login.css
+│ ├── Signup.jsx
+│ └── Signup.css
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone git@github.com:Anupranjan27/Crueto-react-project.git
+cd Crueto-react-project
+npm install
+npm run dev
+
+
+
+---
